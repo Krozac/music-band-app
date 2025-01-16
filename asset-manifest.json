@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/theoguenezan.fr/tri-yann-app/static/css/main.314d659e.css",
-    "main.js": "/theoguenezan.fr/tri-yann-app/static/js/main.7d5c9b72.js",
-    "static/media/la-decouverte-ou-l'ignorance.jpg": "/theoguenezan.fr/tri-yann-app/static/media/la-decouverte-ou-l'ignorance.f4bf16ad856663d04381.jpg",
-    "static/media/suite-gallaise.jpg": "/theoguenezan.fr/tri-yann-app/static/media/suite-gallaise.bca1cfec64f4aa164327.jpg",
-    "static/media/la-veillee-du-troisieme-millenaire.jpg": "/theoguenezan.fr/tri-yann-app/static/media/la-veillee-du-troisieme-millenaire.0e0f7a11f6da805cd41f.jpg",
-    "static/media/an-heol-a-zo-glaz.jpg": "/theoguenezan.fr/tri-yann-app/static/media/an-heol-a-zo-glaz.d783c5bb0b4da88b37a5.jpg",
-    "static/media/an-naoed.jpg": "/theoguenezan.fr/tri-yann-app/static/media/an-naoed.369b0b77ec14ccf77228.jpg",
-    "static/media/le-vaisseau-de-pierre.jpg": "/theoguenezan.fr/tri-yann-app/static/media/le-vaisseau-de-pierre.7cffed6d42f18fa7f413.jpg",
-    "static/media/le-pelegrin.jpg": "/theoguenezan.fr/tri-yann-app/static/media/le-pelegrin.003fa1f1e7fff51c8f05.jpg",
-    "index.html": "/theoguenezan.fr/tri-yann-app/index.html",
-    "main.314d659e.css.map": "/theoguenezan.fr/tri-yann-app/static/css/main.314d659e.css.map",
-    "main.7d5c9b72.js.map": "/theoguenezan.fr/tri-yann-app/static/js/main.7d5c9b72.js.map"
+    "main.css": "/tri-yann-app/static/css/main.314d659e.css",
+    "main.js": "/tri-yann-app/static/js/main.9f5f7466.js",
+    "static/media/la-decouverte-ou-l'ignorance.jpg": "/tri-yann-app/static/media/la-decouverte-ou-l'ignorance.f4bf16ad856663d04381.jpg",
+    "static/media/suite-gallaise.jpg": "/tri-yann-app/static/media/suite-gallaise.bca1cfec64f4aa164327.jpg",
+    "static/media/la-veillee-du-troisieme-millenaire.jpg": "/tri-yann-app/static/media/la-veillee-du-troisieme-millenaire.0e0f7a11f6da805cd41f.jpg",
+    "static/media/an-heol-a-zo-glaz.jpg": "/tri-yann-app/static/media/an-heol-a-zo-glaz.d783c5bb0b4da88b37a5.jpg",
+    "static/media/an-naoed.jpg": "/tri-yann-app/static/media/an-naoed.369b0b77ec14ccf77228.jpg",
+    "static/media/le-vaisseau-de-pierre.jpg": "/tri-yann-app/static/media/le-vaisseau-de-pierre.7cffed6d42f18fa7f413.jpg",
+    "static/media/le-pelegrin.jpg": "/tri-yann-app/static/media/le-pelegrin.003fa1f1e7fff51c8f05.jpg",
+    "index.html": "/tri-yann-app/index.html",
+    "main.314d659e.css.map": "/tri-yann-app/static/css/main.314d659e.css.map",
+    "main.9f5f7466.js.map": "/tri-yann-app/static/js/main.9f5f7466.js.map"
   },
   "entrypoints": [
     "static/css/main.314d659e.css",
-    "static/js/main.7d5c9b72.js"
+    "static/js/main.9f5f7466.js"
   ]
 }
