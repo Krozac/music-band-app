@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.314d659e.css",
-    "main.js": "/static/js/main.1145edd5.js",
+    "main.js": "/static/js/main.79c0df54.js",
     "static/media/la-decouverte-ou-l'ignorance.jpg": "/static/media/la-decouverte-ou-l'ignorance.f4bf16ad856663d04381.jpg",
     "static/media/suite-gallaise.jpg": "/static/media/suite-gallaise.bca1cfec64f4aa164327.jpg",
     "static/media/la-veillee-du-troisieme-millenaire.jpg": "/static/media/la-veillee-du-troisieme-millenaire.0e0f7a11f6da805cd41f.jpg",
@@ -11,10 +11,10 @@
     "static/media/le-pelegrin.jpg": "/static/media/le-pelegrin.003fa1f1e7fff51c8f05.jpg",
     "index.html": "/index.html",
     "main.314d659e.css.map": "/static/css/main.314d659e.css.map",
-    "main.1145edd5.js.map": "/static/js/main.1145edd5.js.map"
+    "main.79c0df54.js.map": "/static/js/main.79c0df54.js.map"
   },
   "entrypoints": [
     "static/css/main.314d659e.css",
-    "static/js/main.1145edd5.js"
+    "static/js/main.79c0df54.js"
   ]
 }
