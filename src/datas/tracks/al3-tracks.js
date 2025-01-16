@@ -1,0 +1,122 @@
+export const vaisseauDePierreTracks = [
+  {
+    id: 'tr1',
+    albumId: 'al3',
+    name: 'Musik glaz',
+    duration: '1:54',
+  },
+  {
+    id: 'tr2',
+    albumId: 'al3',
+    name: 'Digoradur',
+    duration: '3:17',
+  },
+  {
+    id: 'tr3',
+    albumId: 'al3',
+    name: 'L\'Abordage de l\'Avelenn - Les Matins de chagrin',
+    duration: '4:36',
+  },
+  {
+    id: 'tr4',
+    albumId: 'al3',
+    name: 'With a Bing-tow-row-row',
+    duration: '2:28',
+  },
+  {
+    id: 'tr5',
+    albumId: 'al3',
+    name: 'L\'Ouverture du chantier - Sonnerezh koz - Quiemboi',
+    duration: '5:20',
+  },
+  {
+    id: 'tr6',
+    albumId: 'al3',
+    name: 'Gavotten nevez war sujet mouilc\'hi tromilio',
+    duration: '2:50',
+  },
+  {
+    id: 'tr7',
+    albumId: 'al3',
+    name: 'Un soir à Tréhoët',
+    duration: '3:36',
+  },
+  {
+    id: 'tr8',
+    albumId: 'al3',
+    name: 'Klemnou ha meleudi',
+    duration: '3:38',
+  },
+  {
+    id: 'tr9',
+    albumId: 'al3',
+    name: 'Cantic war sujet an anaon',
+    duration: '3:45',
+  },
+  {
+    id: 'tr10',
+    albumId: 'al3',
+    name: 'Chant des anciens',
+    duration: '4:30',
+  },
+  {
+    id: 'tr11',
+    albumId: 'al3',
+    name: 'Musik gwenn',
+    duration: '1:57',
+  },
+  {
+    id: 'tr12',
+    albumId: 'al3',
+    name: 'Le Plus Dur Métier',
+    duration: '3:25',
+  },
+  {
+    id: 'tr13',
+    albumId: 'al3',
+    name: 'Les Préparatifs du déménagement',
+    duration: '2:50',
+  },
+  {
+    id: 'tr14',
+    albumId: 'al3',
+    name: 'Kimiad eur paour kaez den oblijet da guitad e vro',
+    duration: '2:25',
+  },
+  {
+    id: 'tr15',
+    albumId: 'al3',
+    name: 'Les Guerriers d\'une nuit',
+    duration: '3:39',
+  },
+  {
+    id: 'tr16',
+    albumId: 'al3',
+    name: 'Histoire du bateau blanc changé en goéland',
+    duration: '3:56',
+  },
+  {
+    id: 'tr17',
+    albumId: 'al3',
+    name: 'Kan bale ar re varo',
+    duration: '7:21',
+  },
+  {
+    id: 'tr18',
+    albumId: 'al3',
+    name: 'Gwerz inimaginabl war disparti lestr a vaen',
+    duration: '4:15',
+  },
+  {
+    id: 'tr19',
+    albumId: 'al3',
+    name: 'Les Lambeaux de l\'enfance',
+    duration: '4:27',
+  },
+  {
+    id: 'tr20',
+    albumId: 'al3',
+    name: 'L\'En dro vert',
+    duration: '3:44',
+  }
+];

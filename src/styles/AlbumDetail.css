@@ -1,0 +1,91 @@
+/* AlbumDetail.css */
+
+/* Conteneur de la page de détail de l'album */
+.album-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.album-cover {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.album-description {
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.album-details-header {
+  text-align: center;
+}
+
+.album-details-header h1 {
+  font-size: 2rem;
+  color: #2d3e50;
+}
+
+.album-details-header p {
+  font-size: 1rem;
+  color: #777;
+}
+
+.tracklist {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.track-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.track-item:hover {
+  background-color: #f1f1f1;
+}
+
+.track-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.track-duration {
+  font-style: italic;
+  color: #777;
+}
+
+/* Add specific ID or class styles for elements like buttons or special sections */
+.album-info {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.album-info h3 {
+  color: #2d3e50;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.album-info p {
+  color: #777;
+  font-size: 1rem;
+}
