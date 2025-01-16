@@ -2,7 +2,7 @@
   "name": "tri-yann-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "theoguenezan.fr/tri-yann-app",
+  "homepage": "http://theoguenezan.fr/tri-yann-app",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
