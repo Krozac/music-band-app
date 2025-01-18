@@ -19,7 +19,7 @@
   transform: perspective(1500px) rotateY(40deg) rotateX(1deg);
   will-change: transform;
   border: 1px solid #ccc; /* Added border to simulate thickness */
-  box-shadow: -2px 1px 0px rgb(0, 0, 0);
+  box-shadow: -2px 1px 0px #6d6d6d;
   display:inline-block;
   margin-left:-200px;
     z-index:1;

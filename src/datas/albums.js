@@ -1,6 +1,6 @@
 import suitegallaise from  '../assets/cover/suite-gallaise.jpg'
 import annaoed from  '../assets/cover/an-naoed.jpg'
-import decouverte from  "../assets/cover/la-decouverte-ou-l'ignorance.jpg"
+import decouverte from  '../assets/cover/la-decouverte-ou-lignorance.jpg'
 import pelegrin from  '../assets/cover/le-pelegrin.jpg'
 import vaisseau from  '../assets/cover/le-vaisseau-de-pierre.jpg'
 import heol from  '../assets/cover/an-heol-a-zo-glaz.jpg'

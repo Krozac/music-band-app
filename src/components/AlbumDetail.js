@@ -14,6 +14,7 @@ function AlbumDetail() {
     if (album) {
       // Change le fond du body à la couverture de l'album
       document.body.style.backgroundImage = `url(${album.cover})`;
+        console.log(`url(${album.cover})`)
       document.body.style.backgroundSize = 'cover';
       document.body.style.backgroundPosition = 'center';
     }
