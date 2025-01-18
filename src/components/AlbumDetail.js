@@ -1,5 +1,4 @@
-// AlbumDetail.js
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { AlbumList } from '../datas/albums';
 import { TrackList } from '../datas/tracks';  // Si tu utilises une tracklist globale
@@ -10,6 +9,22 @@ import '../styles/AlbumDetail.css';  // Style si nécessaire
 function AlbumDetail() {
   const { id } = useParams();  // Récupère l'ID de l'album depuis l'URL
   const album = AlbumList.find((album) => album.id === id); // Recherche l'album correspondant
+
+  useEffect(() => {
+    if (album) {
+      // Change le fond du body à la couverture de l'album
+      document.body.style.backgroundImage = `url(${album.cover})`;
+      document.body.style.backgroundSize = 'cover';
+      document.body.style.backgroundPosition = 'center';
+    }
+
+    // Restaure le fond par défaut quand le composant est démonté
+    return () => {
+      document.body.style.backgroundImage = '';
+      document.body.style.backgroundSize = '';
+      document.body.style.backgroundPosition = '';
+    };
+  }, [album]);  // Cette dépendance va refaire l'effet chaque fois que l'album change
 
   if (!album) {
     return <div>Album non trouvé.</div>;

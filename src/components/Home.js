@@ -7,18 +7,7 @@ import '../styles/Home.css';  // Style si nécessaire
 function Home() {
   return (
     <div className="home">
-      <h1>Albums</h1>
-      <ul className="album-list">
-        {AlbumList.map((album) => (
-          <li key={album.id} className="album-item">
-            <Link to={`/album/${album.id}`} className="album-link">
-              <img src={album.cover} alt={album.name} />
-              <h2>{album.name}</h2>
-              <p>{album.date}</p>
-            </Link>
-          </li>
-        ))}
-      </ul>
+        <h1>Accueil</h1>
     </div>
   );
 }

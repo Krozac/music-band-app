@@ -4,68 +4,13 @@
 .home {
   text-align: center;
   padding: 40px 20px;
-  background-color: #fafafa;
+  background-color: transparent;
+z-index:1;
+    position:relative;
 }
 
 .home h1 {
   font-size: 2rem;
   color: #2d3e50;
   margin-bottom: 30px;
-}
-
-.album-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.album-item {
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  max-width: 250px;
-  overflow: hidden;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.album-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.album-item img {
-  width: 100%;
-  height: auto;
-  border-bottom: 2px solid #ddd;
-}
-
-.album-item h2 {
-  font-size: 1.2rem;
-  color: #333;
-  margin: 10px 0;
-}
-
-.album-item p {
-  font-size: 0.9rem;
-  color: #777;
-  margin-bottom: 15px;
-}
-
-.album-link {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Ajouter des styles pour une meilleure mise en page mobile */
-@media (max-width: 768px) {
-  .album-list {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .album-item {
-    max-width: 100%;
-  }
 }

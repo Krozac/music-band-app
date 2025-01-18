@@ -1,11 +1,57 @@
+:root {
+  --background-start: rgb(255, 255, 255);
+  --background-middle: rgb(211, 211, 211);
+  --background-end: rgb(77, 77, 77);
+}
+
+@font-face {
+  font-family: 'Almendra';
+  src: url('../fonts/Almendra/Almendra-Bold.ttf') format('truetype'),
+       url('../fonts/Almendra/Almendra-BoldItalic.ttf') format('truetype'),
+       url('../fonts/Almendra/Almendra-Italic.ttf') format('truetype'),
+       url('../fonts/Almendra/Almendra-Regular.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Almendra',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--background-start);
+  background: radial-gradient(circle, var(--background-start) 0%, var(--background-middle) 18%, var(--background-end) 60%);
 }
+
+body:before {
+    backdrop-filter: blur(2px);
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 0;
+    background: url('../assets/vhs.png') rgba(0, 0, 0, .25);
+    position: fixed;
+}
+
+
+body::after{
+    display: block;
+    position:absolute;
+    width:100%;
+    height:1500px;
+    top:0;
+    left:0;
+    content:'';
+    background-image: url('../assets/background.svg');
+    background-size: cover; /* Ensures the whole image fits within the viewport */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image in the viewport */
+    z-index:-1;
+    mix-blend-mode: hard-light;
+    opacity: 20%;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
