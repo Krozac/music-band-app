@@ -1,48 +1,12 @@
-import suitegallaise from  '../assets/cover/suite-gallaise.jpg'
-import annaoed from  '../assets/cover/an-naoed.jpg'
-import decouverte from  '../assets/cover/la-decouverte-ou-lignorance.jpg'
-import pelegrin from  '../assets/cover/le-pelegrin.jpg'
-import vaisseau from  '../assets/cover/le-vaisseau-de-pierre.jpg'
-import heol from  '../assets/cover/an-heol-a-zo-glaz.jpg'
-import veillee from '../assets/cover/la-veillee-du-troisieme-millenaire.jpg'
-import dix from '../assets/cover/dix-ans-dix-filles.jpg'
-import urba from '../assets/cover/urba.jpg'
-import cafe from '../assets/cover/cafe-du-bon-coin.jpg'
-import belle from '../assets/cover/belle-et-rebelle.jpg'
-import portraits from '../assets/cover/portraits.jpg'
-import marines from '../assets/cover/marines.jpg'
-import abysses from '../assets/cover/abysses.jpg'
-import rummadou from '../assets/cover/rummadou.jpg'
-import enchantee from '../assets/cover/la-belle-enchantee.jpg'
-import anniverscene from '../assets/cover/anniverscene.jpg'
-import concert from '../assets/cover/tri-yann-en-concert.jpg'
-import tradition from '../assets/cover/la-tradition-symphonique.jpg'
-import trente from '../assets/cover/trente-ans-au-zenith.jpg'
-import traditiondeux from '../assets/cover/la-tradition-symphonique-deux.jpg'
-import quarante from '../assets/cover/le-concert-des-quarante-ans.jpg'
-import cinquante from '../assets/cover/cinquante-ans-de-scene.jpg'
-import filles from '../assets/cover/les-filles-des-forges.jpg'
-import mort from '../assets/cover/si-mort-a-mors.jpg'
-import masterun from '../assets/cover/master-serie-vol-un.jpg'
-import inventaireun from '../assets/cover/inventaire-vol-un.jpg'
-import inventairedeux from '../assets/cover/inventaire-vol-deux.jpg'
-import gwellan from '../assets/cover/ar-gwellan-gant.jpg'
-import trilogie from '../assets/cover/trilogie.jpg'
-import essentiel from '../assets/cover/lessentiel-en-concert.jpg'
-import story from '../assets/cover/cd-story.jpg'
-import anthologie from '../assets/cover/anthologie.jpg'
-import bestofun from '../assets/cover/best-of-un.jpg'
-import morceaux from '../assets/cover/morceaux-de-choix.jpg'
-import bestofdeux from '../assets/cover/best-of-deux.jpg'
-import chansons from '../assets/cover/chansons-de-marins.jpg'
-import incontournables from '../assets/cover/les-incontournables.jpg'
+
+let alimages = Array.from({ length: 35 }, (_, i) => require(`../assets/cover/album_${String(i)}.png`))
 
 export const AlbumList = [
     {
         id: 'tri-yan-an-naoned',
         name: 'Tri Yann an Naoned',
         date: 1972,
-        cover: annaoed,
+        cover: alimages[0],
         description: 'Tri Yann an Naoned est le premier album du groupe, une véritable déclaration d’amour à la culture bretonne, riche en chants traditionnels et arrangements innovants.',
         type:'studio'
     },
@@ -50,7 +14,7 @@ export const AlbumList = [
         id: 'dix-ans-dix-filles',
         name: 'Dix ans, dix filles',
         date: 1973,
-        cover: dix,
+        cover: alimages[1],
         description: '',
         type:'studio'
     },
@@ -58,7 +22,7 @@ export const AlbumList = [
         id: 'suite-gallaise',
         name: 'Suite gallaise',
         date: 1974,
-        cover: suitegallaise,
+        cover: alimages[2],
         description: 'Suite gallaise est un album marquant qui mélange des compositions traditionnelles et contemporaines, mettant en valeur la richesse de la musique bretonne.',
         type:'studio'
     },
@@ -66,7 +30,7 @@ export const AlbumList = [
         id: 'la-decouverte-ou-lignorance',
         name: 'La Découverte ou l’Ignorance',
         date: 1976,
-        cover: decouverte,
+        cover: alimages[3],
         description: "La Découverte ou l’Ignorance est un chef-d'œuvre qui illustre la profondeur de l’histoire bretonne à travers des mélodies puissantes et des paroles évocatrices.",
         type:'studio'
     },
@@ -74,7 +38,7 @@ export const AlbumList = [
         id: 'urba',
         name: 'Urba',
         date: 1978,
-        cover: urba,
+        cover: alimages[4],
         description: "",
         type:'studio'
     },
@@ -82,7 +46,7 @@ export const AlbumList = [
         id: 'an-heol-a-zo-glaz',
         name: 'An Heol a zo Glaz',
         date: 1981,
-        cover: heol,
+        cover: alimages[5],
         description: 'An Heol a zo Glaz est un album qui célèbre la nature et la culture bretonne, avec des compositions originales et des harmonies vocales captivantes.',
         type:'studio'
     },
@@ -90,7 +54,7 @@ export const AlbumList = [
         id: 'cafe-du-bon-coin',
         name: 'Café du bon coin',
         date: 1983,
-        cover: cafe,
+        cover: alimages[6],
         description: '',
         type:'studio'
     },
@@ -98,7 +62,7 @@ export const AlbumList = [
         id: 'le-vaisseau-de-pierre',
         name: 'Le Vaisseau de pierre',
         date: 1988,
-        cover: vaisseau,
+        cover: alimages[7],
         description: 'Le Vaisseau de pierre est un album emblématique qui fusionne musique traditionnelle et influences modernes, capturant l’essence de la légende bretonne.',
         type:'studio'
     },
@@ -106,7 +70,7 @@ export const AlbumList = [
         id: 'belle-et-rebelle',
         name: 'Belle et rebelle',
         date: 1990,
-        cover: belle,
+        cover: alimages[8],
         description: '',
         type:'studio'
     },
@@ -114,7 +78,7 @@ export const AlbumList = [
         id: 'portraits',
         name: 'Portraits',
         date: 1995,
-        cover: portraits,
+        cover: alimages[9],
         description: '',
         type:'studio'
     },
@@ -122,7 +86,7 @@ export const AlbumList = [
         id: 'la-veillee-du-troisieme-millenaire',
         name: 'La Veillée du troisième millénaire',
         date: 1998,
-        cover: veillee,
+        cover: alimages[10],
         description: 'La Veillée du troisième millénaire est une réflexion musicale sur les traditions et l’avenir, avec des morceaux qui invitent à la méditation et à la célébration.',
         type:'studio'
     },
@@ -130,7 +94,7 @@ export const AlbumList = [
         id: 'le-pelegrin',
         name: 'Le Pélégrin',
         date: 2001,
-        cover: pelegrin,
+        cover: alimages[11],
         description: 'Le Pélégrin explore des thèmes spirituels et introspectifs, tout en restant fidèle aux racines celtiques du groupe.',
         type:'studio'
     },  
@@ -138,7 +102,7 @@ export const AlbumList = [
         id: 'marines',
         name: 'Marines',
         date: 2003,
-        cover: marines,
+        cover: alimages[12],
         description: '',
         type:'studio'
     }, 
@@ -146,7 +110,7 @@ export const AlbumList = [
         id: 'abysses',
         name: 'Abysses',
         date: 2007,
-        cover: abysses,
+        cover: alimages[13],
         description: '',
         type:'studio'
     },  
@@ -154,7 +118,7 @@ export const AlbumList = [
         id: 'rummadou',
         name: 'Rummadoù',
         date: 2011,
-        cover: rummadou,
+        cover: alimages[14],
         description: '',
         type:'studio'
     },  
@@ -162,7 +126,7 @@ export const AlbumList = [
         id: 'la-belle-enchantee',
         name: 'La Belle enchantée',
         date: 2016,
-        cover: enchantee,
+        cover: alimages[15],
         description: '',
         type:'studio'
     },    
@@ -170,7 +134,7 @@ export const AlbumList = [
         id: 'anniverscene',
         name: 'Anniverscène',
         date: 1985,
-        cover: anniverscene,
+        cover: alimages[16],
         description: '',
         type:'live'
     },  
@@ -178,7 +142,7 @@ export const AlbumList = [
         id: 'tri-yann-en-concert',
         name: 'Tri Yann en concert',
         date: 1996,
-        cover: concert,
+        cover: alimages[17],
         description: '',
         type:'live'
     },    
@@ -186,7 +150,7 @@ export const AlbumList = [
         id: 'la-tradition-symphonique',
         name: 'La Tradition symphonique',
         date: 1998,
-        cover: tradition,
+        cover: alimages[18],
         description: '',
         type:'live'
     },    
@@ -194,7 +158,7 @@ export const AlbumList = [
         id: 'trente-ans-au-zenith',
         name: '30 ans au Zénith',
         date: 2001,
-        cover: trente,
+        cover: alimages[19],
         description: '',
         type:'live'
     },    
@@ -202,7 +166,7 @@ export const AlbumList = [
         id: 'la-tradition-symphonique-deux',
         name: 'La Tradition symphonique 2',
         date: 2004,
-        cover: traditiondeux,
+        cover: alimages[20],
         description: '',
         type:'live'
     },    
@@ -210,7 +174,7 @@ export const AlbumList = [
         id: 'le-concert-des-quarante-ans',
         name: 'Le concert des 40 ans',
         date: 2012,
-        cover: quarante,
+        cover: alimages[21],
         description: '',
         type:'live'
     },    
@@ -218,7 +182,7 @@ export const AlbumList = [
         id: 'cinquante-ans-de-scene',
         name: '50 ans de scène',
         date: 2019,
-        cover: cinquante,
+        cover: alimages[22],
         description: '',
         type:'live'
     },    
@@ -226,7 +190,7 @@ export const AlbumList = [
         id: 'les-filles-des-forges',
         name: 'Les Filles des forges',
         date: 1976,
-        cover: filles,
+        cover: alimages[23],
         description: '',
         type:'compil'
     },    
@@ -234,7 +198,7 @@ export const AlbumList = [
         id: 'si-mort-a-mors',
         name: 'Si mort a mors',
         date: 1981,
-        cover: mort,
+        cover: alimages[24],
         description: '',
         type:'compil'
     },
@@ -242,7 +206,7 @@ export const AlbumList = [
         id: 'master-serie-vol-un',
         name: 'Master Serie Volume 1',
         date: 1986,
-        cover: masterun,
+        cover: alimages[25],
         description: '',
         type:'compil'
     },
@@ -250,7 +214,7 @@ export const AlbumList = [
         id: 'inventaire',
         name: 'Inventaire 1970-1993',
         date: 1994,
-        cover: inventaireun,
+        cover: alimages[26],
         description: '',
         type:'compil'
     },
@@ -258,7 +222,7 @@ export const AlbumList = [
         id: 'inventaire-vol-deux',
         name: 'Inventaire Volume 2',
         date: 1995,
-        cover: inventairedeux,
+        cover: alimages[27],
         description: '',
         type:'compil'
     },
@@ -266,7 +230,7 @@ export const AlbumList = [
         id: 'ar-gwellan-gant',
         name: 'Ar Gwellañ gant Tri Yann - Le Meilleur de Tri Yann',
         date: 1996,
-        cover: gwellan,
+        cover: alimages[28],
         description: '',
         type:'compil'
     },
@@ -274,7 +238,7 @@ export const AlbumList = [
         id: 'trilogie',
         name: 'Trilogie',
         date: 1998,
-        cover: trilogie,
+        cover: alimages[29],
         description: '',
         type:'compil'
     },
@@ -282,7 +246,7 @@ export const AlbumList = [
         id: 'lessentiel-en-concert',
         name: 'L\'essentiel en concert',
         date: 1999,
-        cover: essentiel,
+        cover: alimages[30],
         description: '',
         type:'compil'
     },
@@ -290,7 +254,7 @@ export const AlbumList = [
         id: 'cd-story',
         name: 'CD Story - Best of',
         date: 2000,
-        cover: story,
+        cover: alimages[31],
         description: '',
         type:'compil'
     },
@@ -298,7 +262,7 @@ export const AlbumList = [
         id: 'la-musique-a-une-histoire',
         name: 'La musique a une histoire. Anthologie Tri Yann',
         date: 2003,
-        cover: anthologie,
+        cover: alimages[32],
         description: '',
         type:'compil'
     },
@@ -306,7 +270,7 @@ export const AlbumList = [
         id: 'best-of',
         name: 'Tri Yann - Best of (1972-1990)',
         date: 2007,
-        cover: bestofun,
+        cover: alimages[33],
         description: '',
         type:'compil'
     },
@@ -314,34 +278,9 @@ export const AlbumList = [
         id: 'morceaux-de-choix',
         name: 'Morceaux de Choix',
         date: 2007,
-        cover: morceaux,
+        cover: alimages[34],
         description: '',
         type:'compil'
-    },
-    {
-        id: 'double-best-of',
-        name: 'Double Best Of 40e anniversaire',
-        date: 2011,
-        cover: bestofdeux,
-        description: '',
-        type:'compil'
-    },
-    {
-        id: 'chansons-de-marins',
-        name: 'Chansons de Marins',
-        date: 2012,
-        cover: chansons,
-        description: '',
-        type:'compil'
-    },
-    {
-        id: 'les-incontournables',
-        name: 'Les incontournables 1970 - 2015',
-        date: 2015,
-        cover: incontournables,
-        description: '',
-        type:'compil'
-    },
-
+    }
 
 ];

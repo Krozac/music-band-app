@@ -32,8 +32,6 @@
     text-align: left;
 }
 
-
-
 .album-item:hover {
   transform: translateY(-15px);
   box-shadow: 0px 0px 0px rgb(0, 0, 0);
