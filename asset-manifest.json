@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/music-band-app/static/css/main.3b92a3a7.css",
-    "main.js": "/music-band-app/static/js/main.f66cbeb9.js",
-    "static/media/background.svg": "/music-band-app/static/media/background.d0b4d422c53e8e3e64dec54d54c05d48.svg",
+    "main.css": "/music-band-app/static/css/main.2a1aee54.css",
+    "main.js": "/music-band-app/static/js/main.a0011486.js",
+    "static/media/background.png": "/music-band-app/static/media/background.812c46252384374cb7b0.png",
     "static/media/Almendra-Regular.ttf": "/music-band-app/static/media/Almendra-Regular.6043ed10223263d7aed3.ttf",
     "static/media/Almendra-Bold.ttf": "/music-band-app/static/media/Almendra-Bold.a3879787489373dbda6a.ttf",
     "static/media/Almendra-BoldItalic.ttf": "/music-band-app/static/media/Almendra-BoldItalic.628bd5708792d3dc4ae2.ttf",
@@ -73,11 +73,11 @@
     "static/media/photo_23.png": "/music-band-app/static/media/photo_23.9fa13064aa6389a3a2ed.png",
     "static/media/photo_6.png": "/music-band-app/static/media/photo_6.740037b5027b11ed9816.png",
     "index.html": "/music-band-app/index.html",
-    "main.3b92a3a7.css.map": "/music-band-app/static/css/main.3b92a3a7.css.map",
-    "main.f66cbeb9.js.map": "/music-band-app/static/js/main.f66cbeb9.js.map"
+    "main.2a1aee54.css.map": "/music-band-app/static/css/main.2a1aee54.css.map",
+    "main.a0011486.js.map": "/music-band-app/static/js/main.a0011486.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b92a3a7.css",
-    "static/js/main.f66cbeb9.js"
+    "static/css/main.2a1aee54.css",
+    "static/js/main.a0011486.js"
   ]
 }
