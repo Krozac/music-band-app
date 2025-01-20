@@ -15,11 +15,11 @@ function Photos() {
 
   return (
     <div className="photos-container">
-      <h1 className="photos-title">Galerie de Photos</h1>
+      <h1 className="photos-title">Photo gallery</h1>
       <div className="filter">
-        <label htmlFor="photo-category-select">Filtrer par catégorie : </label>
+        <label htmlFor="photo-category-select">Filter by category : </label>
         <select id="photo-category-select" value={selectedCategory} onChange={handleCategoryChange}>
-          <option value="all">Toutes</option>
+          <option value="all">All</option>
           {PhotosList.map(category => (
             <option key={category.id} value={category.id}>{category.id}</option>
           ))}

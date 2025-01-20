@@ -33,7 +33,7 @@
   font-size: 3rem;
   margin: 0;
   font-family: 'Almendra';
-    font-size:150px;
+    font-size:95px;
   opacity: 95%;
 }
 
@@ -43,6 +43,6 @@
 }
 
 .banner-img{
-    height:200px;
+    height:130px;
     filter:invert(100%);
 }

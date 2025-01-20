@@ -1,7 +1,7 @@
 // Banner.js
 import React from 'react';
 import '../styles/Banner.css';  // Importation du fichier CSS
-import logo from '../assets/background.svg'
+import logo from '../assets/background.png'
 
 function Banner({ title, subtitle, backgroundImage }) {
   return (

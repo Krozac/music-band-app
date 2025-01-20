@@ -44,28 +44,28 @@ function Albums() {
     <div className="albums-container">
       <h1 className="albums-title">Discographie</h1>
       <div className="filter">
-        <label htmlFor="album-type-select">Filtrer par type : </label>
+        <label htmlFor="album-type-select">Filtrer by type: </label>
         <select id="album-type-select" value={selectedType} onChange={handleTypeChange}>
-          <option value="all">Tous</option>
+          <option value="all">All</option>
           <option value="studio">Studio</option>
           <option value="live">Live</option>
           <option value="compil">Compilation</option>
         </select>
       </div>
       <div className="filter">
-        <label htmlFor="album-year-select">Filtrer par année : </label>
+        <label htmlFor="album-year-select">Filter by release year : </label>
         <select id="album-year-select" value={selectedYear} onChange={handleYearChange}>
-          <option value="all">Toutes</option>
+          <option value="all">All</option>
           {years.map(year => (
             <option key={year} value={year}>{year}</option>
           ))}
         </select>
       </div>
       <div className="sort">
-        <label htmlFor="album-sort-select">Trier par : </label>
+        <label htmlFor="album-sort-select">Order By : </label>
         <select id="album-sort-select" value={sortOrder} onChange={handleSortChange}>
-          <option value="date">Date</option>
-          <option value="name">Nom</option>
+          <option value="date">Year</option>
+          <option value="name">Name</option>
         </select>
       </div>
       <ul className="album-list">

@@ -7,7 +7,7 @@ import '../styles/Home.css';  // Style si nécessaire
 function Home() {
   return (
     <div className="home">
-        <h1>Accueil</h1>
+        <h1>Home</h1>
     </div>
   );
 }

@@ -40,7 +40,7 @@ function AlbumDetail() {
         <h1 id="album-title">{album.name}</h1>
         <img className="album-cover" src={album.cover} alt={album.name} />
         <p id="album-description" className="album-description">{album.description}</p>
-        <p id="album-date"><strong>Date de sortie :</strong> {album.date}</p>
+        <p id="album-date"><strong>Release date :</strong> {album.date}</p>
       </div>
 
       <div className="album-info">

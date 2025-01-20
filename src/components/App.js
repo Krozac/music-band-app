@@ -4,12 +4,14 @@ import Albums from './Albums';
 import Photos from './Photos';
 import Home from './Home';
 import Banner from './Banner';
+import Menu from './Menu';
 import AlbumDetail from './AlbumDetail';
 
 function App() {
   return (
     <div>
-      <Banner title="Tri Yann" subtitle="" backgroundImage=""/>
+      <Banner title="Music Band Website Template" subtitle="" backgroundImage=""/>
+      <Menu />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/album" element={<Albums />} />
